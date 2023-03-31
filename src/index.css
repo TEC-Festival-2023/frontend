@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: white;
+}
+.logo {
+    width: 70px;
+}
+
+.nav {
+    background: linear-gradient(to bottom, #F8D660, transparent 70%); 
+    z-index: 10;
+}
+.navscroll {
+    background-color: #F8D660;
+    z-index: 10;
+}
+.hero {
+    height: 100vh;
+}
+.discovery {
+    font-family: 'Over the Rainbow', cursive;
+}
+.text {
+    background-image: linear-gradient(to bottom, #F8D660, white 70%); 
+    background-clip: text;
+    color: transparent;
+}
