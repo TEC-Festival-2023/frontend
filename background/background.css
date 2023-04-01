@@ -1,0 +1,49 @@
+.custom-shape-divider-bottom-1677946402 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1677946402 svg {
+  position: relative;
+  display: block;
+  width: calc(146% + 1.3px);
+  height: 500px;
+}
+
+.custom-shape-divider-bottom-1677946402 .shape-fill {
+  fill: #7ea8ff;
+}
+
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 400px;
+  padding: 100px;
+}
+
+.custom-shape-divider-top-1677947088 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1677947088 svg {
+  position: relative;
+  display: block;
+  width: calc(150% + 1.3px);
+  height: 500px;
+}
+
+.custom-shape-divider-top-1677947088 .shape-fill {
+  fill: #7ea8ff;
+}
