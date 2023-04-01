@@ -1,17 +1,17 @@
-import Carousel from './Carousel';
-import Cta from './Cta';
-import Judges from './Judges';
-
-import './App.css';
+import "./App.css";
+import React from "react";
+import Herocomp from "./components/Herocomp";
+import Navbar from "./components/Navbar";
+import RoutesConfig from "./config/RoutesConfig";
+import Background from "./components/Background";
 
 function App() {
   return (
     <div>
-      <Carousel />
-      <Cta /> 
-      <Judges />
+      <Navbar />
+      {/* <Background /> */}
+      <RoutesConfig />
     </div>
-    
   );
 }
 
