@@ -7,7 +7,7 @@ import Accordion from "../components/Accordion";
 
 function HomePage() {
   return (
-    <div>
+    <div className="">
       <Hero />
       <Carousel />
       <Cta />

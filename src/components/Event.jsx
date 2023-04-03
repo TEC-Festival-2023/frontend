@@ -28,9 +28,9 @@ const Card = (props) => {
     </div>
   );
 };
-export default () => {
+export default function EventSlider() {
   return (
-    <div>
+    <div className="max-w-7xl m-auto">
       <div className="text-center font-poppins text-3xl font-bold">
         Our Events
       </div>
@@ -147,4 +147,4 @@ export default () => {
       </div>
     </div>
   );
-};
+}
