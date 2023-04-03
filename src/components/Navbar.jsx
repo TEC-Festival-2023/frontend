@@ -25,15 +25,24 @@ const Navbar = () => {
     >
       <img src="/assets/icon.png" className="w-[70px]" />
       <ul className="flex-grow justify-end hidden md:flex">
-        <li className="p-4 px-10 hover:underline-offset-2 border-gray-900">
-          Home
-        </li>
+        <div className="p-4 px-10 border-gray-900">
+          <a className="underline-offset-2 hover:underline" href="/">
+            Home
+          </a>
+        </div>
         <div className="flex p-4 px-10 items-center">
-          <li className="">Event</li>
+          <a className="underline-offset-2 hover:underline" href="/events">
+            Events
+          </a>
           <AiOutlineDown className="p-1" size={20}></AiOutlineDown>
         </div>
         <div className="flex p-4 px-10 items-center">
-          <li className="">Competition</li>
+          <a
+            className="underline-offset-2 hover:underline"
+            href="/competitions"
+          >
+            Competitions
+          </a>
           <AiOutlineDown className="p-1" size={20}></AiOutlineDown>
         </div>
       </ul>
