@@ -28,13 +28,13 @@ const Navbar = () => {
         <li className="p-4 px-10 hover:underline-offset-2 border-gray-900">
           Home
         </li>
-        <div className="flex p-4 px-10">
+        <div className="flex p-4 px-10 items-center">
           <li className="">Event</li>
-          <AiOutlineDown className="pt-1" size={23}></AiOutlineDown>
+          <AiOutlineDown className="p-1" size={20}></AiOutlineDown>
         </div>
-        <div className="flex p-4 px-10">
+        <div className="flex p-4 px-10 items-center">
           <li className="">Competition</li>
-          <AiOutlineDown className="pt-1" size={23}></AiOutlineDown>
+          <AiOutlineDown className="p-1" size={20}></AiOutlineDown>
         </div>
       </ul>
       <div onClick={handleNav} className="z-50 md:hidden block">

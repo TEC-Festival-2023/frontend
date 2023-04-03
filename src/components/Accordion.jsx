@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./Accordion.css";
 const dataCollection = [
   {
     question: "Q1",
@@ -35,29 +34,45 @@ function Accordion() {
   }
   return (
     <>
-      <div className="container font-poppins">
+      <div className="max-w-7xl m-auto font-poppins">
         <div>
-          <h1 className="font-bold">F.A.Q</h1>
+          <h1 className="font-bold text-[80px] text-[#353a40] mb-8 mt-24 text-center">
+            F.A.Q
+          </h1>
         </div>
-        <div className="accordion__faq">
+        <div className="">
           {dataCollection.map((item, index) => (
-            <div key={index} onClick={() => toogleAccordion(index)}>
-              <div className="accordion__faq-heading">
-                <h3 className={accordion === index ? "active" : ""}>
+            <div
+              className="mb-[20px] px-[15px] rounded-t-sm cursor-pointer"
+              key={index}
+              onClick={() => toogleAccordion(index)}
+            >
+              <div
+                className={`bg-[#353a40] rounded-t-xl flex justify-between items-center p-3 ${
+                  accordion === index ? "" : "rounded-b-xl"
+                }`}
+              >
+                <h3 className={`flex items-center text-white`}>
                   {item.question}
                 </h3>
-                {accordion === index ? (
-                  <>
-                    <p className="verticle">-</p>
-                  </>
-                ) : (
-                  <>
-                    <p className="horizontal">+</p>
-                  </>
-                )}
+                <div className="text-white flex items-center">
+                  {accordion === index ? (
+                    <>
+                      <p className="">-</p>
+                    </>
+                  ) : (
+                    <>
+                      <p className="">+</p>
+                    </>
+                  )}
+                </div>
               </div>
               <div className="answer">
-                <p className={accordion === index ? "active" : "inactive"}>
+                <p
+                  className={`text-[#353a40] p-3 bg-[#7ea8ff] m-0 font-bold leading-6 rounded-b-xl ${
+                    accordion === index ? "block" : "hidden"
+                  }`}
+                >
                   {item.answer}
                 </p>
               </div>
