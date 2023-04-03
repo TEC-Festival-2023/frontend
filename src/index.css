@@ -3,18 +3,18 @@
 @tailwind utilities;
 
 @layer utilities {
-    .text-shadow-3px{
-        text-shadow: 3px 3px rgba(0,0,0,0.8);
-    }
-    .text-shadow-5px{
-        text-shadow: 5px 5px rgba(0,0,0,0.8);
-    }
-    .text-shadow-7px{
-        text-shadow: 7px 7px rgba(0,0,0,0.8);
-    }
+  .text-shadow-3px{
+      text-shadow: 3px 3px rgba(0,0,0,0.8);
   }
+  .text-shadow-5px{
+      text-shadow: 5px 5px rgba(0,0,0,0.8);
+  }
+  .text-shadow-7px{
+      text-shadow: 7px 7px rgba(0,0,0,0.8);
+  }
+}
 
-  body {
+body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -22,17 +22,18 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-  
+    
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
   }
-
-.discovery {
-    font-family: 'Over the Rainbow', cursive;
-}
-.text {
-    background-image: linear-gradient(to bottom, #F8D660, white 70%); 
-    background-clip: text;
-    color: transparent;
-}
+  
+  .discovery {
+      font-family: 'Over the Rainbow', cursive;
+  }
+  .text {
+      background-image: linear-gradient(to bottom, #F8D660, white 70%); 
+      background-clip: text;
+      color: transparent;
+  }
+  
