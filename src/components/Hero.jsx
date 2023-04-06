@@ -19,12 +19,12 @@ function Hero() {
       </div>
       <div className="text-white items-center text-lg py-10 lg:text-2xl">
         <div className=" mx-auto text-center bg-[#353A40] w-max -rotate-[4.63deg]">
-          <span className="px-3">
+          <span className="px-3 text-sm md:text-base">
             Catalyzing Indonesia's Future Entrepreneurs
           </span>
         </div>
         <div className=" mx-auto text-center bg-[#353A40] w-max -rotate-[2.77deg]">
-          <span className="px-3">
+          <span className="px-3 text-sm md:text-base">
             Through Technology and Youth-Led Innovations
           </span>
         </div>

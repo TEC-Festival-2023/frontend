@@ -13,7 +13,7 @@ function Carousel() {
               Presented by TEC ITB
             </h4>
             <hr className="max-w-[100%] h-[2px] bg-black border-0 dark:bg-black" />
-            <p className="text-xs lg:text-md xl:text-lg">
+            <p className="text-xs lg:text-md xl:text-lg mt-2">
               Adipisicing excepteur culpa et velit deserunt id id culpa nisi
               esse officia. Eu reprehenderit mollit aliquip ipsum deserunt ad do
               nulla nostrud aliqua mollit.Eu reprehenderit mollit aliquip ipsum
