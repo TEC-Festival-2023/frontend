@@ -1,7 +1,8 @@
-import React from "react";
+import React from 'react'
 
-const Herocomp = () => {
+const HeroEvent = () => {
   return (
+    
     <div className="p-10 font-poppins text-center">
       <h1 className="text-5xl discovery">Discovery in</h1>
       <div className="flex mx-10 items-center justify-center pl-10">
@@ -27,17 +28,11 @@ const Herocomp = () => {
       </div>
       <div className="items-center">
         <div className="mx-auto text-center bg-[#353A40] w-fit h-fit rounded-xl ">
-          <h1 className="text-4xl font-bold p-4 text">COMPS Ed</h1>
+          <h1 className="text-4xl font-bold p-4 text2">EVENTS Ed.</h1>
         </div>
       </div>
-      <div className="text-[#FFE99E] flex justify-center text-5xl lg:text-7xl font-poppins font-bold mt-4 mb-7 min-[500px]:mt-10 min-[500px]:mb-16 min-[1000px]:mt-16 min-[1000px]:mb-20 text-shadow-3px md:text-shadow-4px ">
-        PRIZEPOOL
-      </div>
-      <div className="text-[#7EA8FF] flex justify-center text-5xl lg:text-7xl font-poppins font-bold mt-4 mb-7 min-[500px]:mt-10 min-[500px]:mb-16 min-[1000px]:mt-16 min-[1000px]:mb-20 text-shadow-3px md:text-shadow-4px ">
-        Rp 999.999.999,-
-      </div>
     </div>
-  );
-};
+  )
+}
 
-export default Herocomp;
+export default HeroEvent
