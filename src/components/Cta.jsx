@@ -1,7 +1,7 @@
 function Cta() {
   return (
-    <div className="mt-28 font-poppins font-bold flex flex-col sm:flex-row sm:justify-center ">
-      <div className="self-center bg-blobyellow bg-top bg-[length:85%] bg-no-repeat">
+    <div className="mt-28 font-poppins font-bold flex flex-col sm:flex-row sm:justify-center text-[0.5rem] min-[200px]:text-xs min-[300px]:text-[1rem]">
+      <div className="self-center bg-blobyellow bg-center min-[300px]:bg-top bg-[length:85%] bg-no-repeat">
         <button className="min-h-[300px] hover:scale-110 transition-all duration-300">
           <div className="flex flex-col">
             <img
@@ -9,13 +9,13 @@ function Cta() {
               alt="maskGroup"
               className="shrink self-center w-[40%]"
             />
-            <div className="shrink-[3] self-center">Registering to events?</div>
-            <div className="shrink-[3] self-center">Find out how!</div>
+            <div className="shrink-[3] self-center white-shadow-3px">Registering to events?</div>
+            <div className="shrink-[3] self-center white-shadow-3px">Find out how!</div>
           </div>
         </button>
       </div>
 
-      <div className="self-center bg-blobred bg-top bg-[length:75%] bg-no-repeat shrink">
+      <div className="self-center bg-blobred bg-center min-[300px]:bg-top bg-[length:75%] bg-no-repeat shrink">
         <button className="min-h-[300px] hover:scale-110 transition-all duration-300">
           <div className="flex flex-col">
             <img
@@ -23,7 +23,7 @@ function Cta() {
               alt="maskGroup"
               className="shrink-[3] self-center w-[40%]"
             />
-            <div className="shrink-[3] self-center ">
+            <div className="shrink-[3] self-center white-shadow-3px ">
               How to register <br />
               to our <br />
               competition?
