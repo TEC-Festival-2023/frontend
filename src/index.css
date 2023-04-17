@@ -36,4 +36,9 @@ body {
       background-clip: text;
       color: transparent;
   }
+  .text2 {
+    background-image: linear-gradient(to bottom, #7EA8FF, white 70%); 
+    background-clip: text;
+    color: transparent;
+  }
   
