@@ -4,6 +4,7 @@ import Herocomp from "./components/HeroCompe";
 import Navbar from "./components/Navbar";
 import RoutesConfig from "./config/RoutesConfig";
 import Background from "./components/Background";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <main className="mb-20">
         <RoutesConfig />
       </main>
+      <Footer />
     </div>
   );
 }
