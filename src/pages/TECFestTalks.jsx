@@ -1,7 +1,7 @@
 import React from "react";
 import Miniquiz from "../components/Miniquiz";
 import HeroTECFestTalks from "../components/HeroTecFestTalks";
-import CtaTECFestTalks from "../components/CtaTECFestTalks";
+import CtaEvent from "../components/CtaEvent";
 import FooterTECFestTalks from "../components/FooterTECFestTalks";
 
 function TECFestTalks() {
@@ -9,7 +9,7 @@ function TECFestTalks() {
     <div>
       <HeroTECFestTalks />
       <Miniquiz />
-      <CtaTECFestTalks />
+      <CtaEvent />
       <FooterTECFestTalks />
     </div>
   );

@@ -1,8 +1,9 @@
 import React from "react";
 
-const HeroEvent = () => {
+const HeroCompe = () => {
   return (
     <div className="font-poppins h-screen flex flex-col items-center justify-center -translate-y-[80px]">
+      {/* Atas */}
       <h1 className="text-5xl discovery">Discovery in</h1>
       <div className="flex items-center justify-center -mt-6">
         <h1 className="text-5xl font-bold z-[1] lg:text-7xl">TECFEST</h1>
@@ -27,13 +28,22 @@ const HeroEvent = () => {
       </div>
       <div className="items-center">
         <div className="mx-auto text-center bg-[#353A40] px-6 rounded-xl ">
-          <h1 className="text-4xl font-bold p-4 text2 text-transparent bg-gradient-to-b from-[#7EA9FF] to-white bg-clip-text">
-            EVENTS Ed.
+          <h1 className="text-4xl font-bold p-4 text2 text-transparent bg-gradient-to-b from-[#FFE99E] to-white bg-clip-text">
+            COMPS Ed.
           </h1>
+        </div>
+      </div>
+      {/* Bawah */}
+      <div className="mt-20 hover:scale-110 duration-75 cursor-default">
+        <div className="text-[#FFE99E] flex justify-center text-5xl lg:text-6xl font-poppins font-bold mt-4 mb-7 text-shadow-5px">
+          PRIZE POOL
+        </div>
+        <div className="text-[#7EA8FF] flex justify-center text-5xl lg:text-6xl font-poppins font-bold mt-4 mb-7 text-shadow-3px ">
+          Rp 999.999.999,-
         </div>
       </div>
     </div>
   );
 };
 
-export default HeroEvent;
+export default HeroCompe;
