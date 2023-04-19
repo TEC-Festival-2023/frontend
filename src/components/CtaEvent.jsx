@@ -10,10 +10,8 @@ function CtaEvent() {
               className="shrink self-center w-[40%]"
             />
             <div className="shrink-[3] self-center white-shadow-3px">
-              Registering to events?
-            </div>
-            <div className="shrink-[3] self-center white-shadow-3px">
-              Find out how!
+              <br />
+              Secure Your Spot Here!
             </div>
           </div>
         </button>

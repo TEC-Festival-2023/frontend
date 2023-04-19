@@ -31,7 +31,7 @@ const Card = (props) => {
 export default function EventSwiper() {
   return (
     <div className="max-w-7xl m-auto">
-      <div className="text-[#FFE99E] flex justify-center text-md md:text-5xl font-poppins font-bold mt-4 mb-7 text-shadow-3px">
+      <div className="text-[#FFE99E] flex justify-center text-4xl md:text-5xl lg:text-7xl font-poppins font-bold mt-4 mb-7 text-shadow-3px">
         OUR EVENTS
       </div>
       <div className="mt-10 w-[100%] block px-[5%] ">
