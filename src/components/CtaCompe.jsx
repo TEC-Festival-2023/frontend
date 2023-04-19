@@ -10,9 +10,11 @@ function CtaCompe() {
               className="shrink-[3] self-center w-[40%]"
             />
             <div className="shrink-[3] self-center white-shadow-3px ">
-              How to register <br />
-              to our <br />
-              competition?
+              <br />
+              Ready to Compete?
+              <br />
+              <br />
+              Register Here!
             </div>
           </div>
         </button>

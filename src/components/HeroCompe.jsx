@@ -26,19 +26,17 @@ const HeroCompe = () => {
           </span>
         </div>
       </div>
-      <div className="items-center">
-        <div className="mx-auto text-center bg-[#353A40] px-6 rounded-xl ">
-          <h1 className="text-4xl font-bold p-4 text2 text-transparent bg-gradient-to-b from-[#FFE99E] to-white bg-clip-text">
-            COMPS Ed.
-          </h1>
-        </div>
+      <div className="mx-auto text-center bg-[#353A40] py-2 px-4 md:px-6 md:py-4 rounded-xl ">
+        <h1 className="md:text-4xl font-bold text-xl text-transparent bg-gradient-to-b from-[#FFE99E] to-white bg-clip-text">
+          COMPS Ed.
+        </h1>
       </div>
       {/* Bawah */}
       <div className="mt-20 hover:scale-110 duration-75 cursor-default">
-        <div className="text-[#FFE99E] flex justify-center text-5xl lg:text-6xl font-poppins font-bold mt-4 mb-7 text-shadow-5px">
+        <div className="text-[#FFE99E] flex justify-center text-3xl lg:text-6xl font-poppins font-bold mt-4 mb-7 text-shadow-5px">
           PRIZE POOL
         </div>
-        <div className="text-[#7EA8FF] flex justify-center text-5xl lg:text-6xl font-poppins font-bold mt-4 mb-7 text-shadow-3px ">
+        <div className="text-[#7EA8FF] flex justify-center text-3xl lg:text-6xl font-poppins font-bold mt-4 mb-7 text-shadow-3px ">
           Rp 999.999.999,-
         </div>
       </div>
