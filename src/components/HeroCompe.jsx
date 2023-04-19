@@ -33,10 +33,10 @@ const HeroCompe = () => {
       </div>
       {/* Bawah */}
       <div className="mt-20 hover:scale-110 duration-75 cursor-default">
-        <div className="text-[#FFE99E] flex justify-center text-3xl lg:text-6xl font-poppins font-bold mt-4 mb-7 text-shadow-5px">
+        <div className="text-[#FFE99E] flex justify-center text-3xl md:text-5xl lg:text-6xl font-poppins font-bold mt-4 mb-7 text-shadow-3px lg:text-shadow-5px">
           PRIZE POOL
         </div>
-        <div className="text-[#7EA8FF] flex justify-center text-3xl lg:text-6xl font-poppins font-bold mt-4 mb-7 text-shadow-3px ">
+        <div className="text-[#7EA8FF] flex justify-center text-3xl md:text-5xl lg:text-6xl font-poppins font-bold mt-4 mb-7 text-shadow-3px ">
           Rp 999.999.999,-
         </div>
       </div>
