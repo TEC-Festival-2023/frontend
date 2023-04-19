@@ -2,7 +2,7 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="hero p-10 mt-20  font-poppins h-screen">
+    <div className="font-poppins h-screen flex flex-col items-center justify-center -translate-y-[80px]">
       <img
         src="/assets/images/Logo.png "
         alt=""

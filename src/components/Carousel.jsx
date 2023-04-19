@@ -1,4 +1,4 @@
-import Event from "./Event";
+import Event from "./EventSwiper";
 
 function Carousel() {
   return (
