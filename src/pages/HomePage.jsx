@@ -3,17 +3,17 @@ import Hero from "../components/Hero";
 import Carousel from "../components/Carousel";
 import Cta from "../components/Cta";
 import Judges from "../components/Judges";
-import Accordion from "../components/Accordion";
+import FAQ from "../components/FAQ";
 import Roadmap from "../components/Roadmap";
 
 function HomePage() {
   return (
-    <div className="">
+    <div className="mb-20">
       <Hero />
       <Carousel />
       <Roadmap />
       <Cta />
-      <Accordion />
+      <FAQ />
       {/* <Judges /> */}
     </div>
   );

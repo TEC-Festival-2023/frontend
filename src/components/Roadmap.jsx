@@ -1,12 +1,12 @@
 function Roadmap() {
   return (
-    <div>
-      <div className="text-[#FFE99E] flex justify-center text-md min-[100px]:text-2xl min-[200px]:text-[15vw] min-[300px]:text-[10vw] min-[600px]:text-[7vw] font-poppins font-bold mt-4 mb-7 min-[500px]:mt-10 min-[500px]:mb-16 min-[1000px]:mt-16  min-[1000px]:mb-20 text-shadow-3px min-[500px]:text-shadow-5px min-[1000px]:text-shadow-7px ">
+    <div className="mt-20">
+      <div className="text-[#FFE99E] flex justify-center text-md md:text-5xl font-poppins font-bold mt-4 mb-7 text-shadow-3px">
         ROADMAP
       </div>
-      <div className="flex  justify-center mt-3">
+      <div className="flex justify-center">
         {/* <700px */}
-        <div className="w-[80%] h-[100%] min-[700px]:hidden ">
+        <div className="w-[80%] h-[100%] min-[700px]:hidden max-w-[1140px]">
           <svg
             className=""
             viewBox="0 0 307 650"
@@ -33,7 +33,7 @@ function Roadmap() {
 
             <foreignObject x="0" y="80" width="100%" height="160" className="">
               <div className="flex flex-row">
-                <button class="ml-[12px] rounded-full w-7 h-7 bg-[#7EA8FF]  flex flex-col justify-center ">
+                <button class="ml-[12px] rounded-full w-7 h-7 bg-[#7EA8FF] flex flex-col justify-center ">
                   <div className="basis-4 shrink-0 grow-0 self-center ">
                     <div className="bg-[#FFE99E] rounded-full w-4 h-4"></div>
                   </div>
@@ -204,7 +204,7 @@ function Roadmap() {
           </svg>
         </div>
         {/* >700px */}
-        <div className="w-[80%] h-[100%] hidden min-[700px]:block  ">
+        <div className="w-[80%] h-[100%] hidden min-[700px]:block max-w-[1140px]">
           <svg
             viewBox="-5 0 220 200"
             shape-rendering="geometricPrecision"
