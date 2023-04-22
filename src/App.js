@@ -1,12 +1,13 @@
 import Speaker from "./components/Speaker";
 import Timeline from "./components/Timeline";
-import CompeCarousel from "./components/CompeCarousel";
 import Background from "./components/Background";
+import Accordion from "./components/Accordion";
+
 
 function App() {
     return (
         <div className="App">
-            <Background />
+            <Accordion />
         </div>
     );
 }
