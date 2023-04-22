@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .text-shadow-3px{
+        text-shadow: 3px 3px rgba(0,0,0,0.8);
+    }
+    .text-shadow-5px-left{
+        text-shadow: -5px 5px rgba(0,0,0,0.8);
+    }
+    .text-shadow-5px-right{
+        text-shadow: 5px 5px rgba(0,0,0,0.8);
+    }
+  }
