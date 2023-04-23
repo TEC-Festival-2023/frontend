@@ -1,13 +1,10 @@
 import React from "react";
 
-function Hero() {
+const HeroCompe = () => {
   return (
     <div className="font-poppins h-screen flex flex-col items-center justify-center -translate-y-[80px]">
-      <img
-        src="/assets/images/Logo.png "
-        alt=""
-        className="mx-auto w-40 lg:w-60"
-      />
+      {/* Atas */}
+      <h1 className="text-5xl discovery">Discovery in</h1>
       <div className="flex items-center justify-center -mt-6">
         <h1 className="text-5xl font-bold z-[1] lg:text-7xl">TECFEST</h1>
         <div className="relative pt-14 -ml-10 w-max text-center">
@@ -17,7 +14,7 @@ function Hero() {
           <img src="/assets/Star 1.png" className="lg:w-24 w-20" alt="" />
         </div>
       </div>
-      <div className="text-white items-center text-lg py-10 mx-auto lg:text-2xl">
+      <div className="text-white items-center text-lg py-4 mx-auto lg:text-2xl">
         <div className=" mx-auto text-center bg-[#353A40] w-max -rotate-[4.63deg]">
           <span className="p-1 md:px-3 text-[11px] sm:text-sm md:text-lg lg:text-2xl">
             Catalyzing Indonesia's Future Entrepreneurs
@@ -29,8 +26,22 @@ function Hero() {
           </span>
         </div>
       </div>
+      <div className="mx-auto text-center bg-[#353A40] py-2 px-4 md:px-6 md:py-4 rounded-xl ">
+        <h1 className="md:text-4xl font-bold text-xl text-transparent bg-gradient-to-b from-[#FFE99E] to-white bg-clip-text">
+          COMPS Ed.
+        </h1>
+      </div>
+      {/* Bawah */}
+      <div className="mt-20 hover:scale-110 duration-75 cursor-default">
+        <div className="text-[#FFE99E] flex justify-center text-3xl md:text-5xl lg:text-6xl font-poppins font-bold mt-4 mb-7 text-shadow-3px lg:text-shadow-5px">
+          PRIZE POOL
+        </div>
+        <div className="text-[#7EA8FF] flex justify-center text-3xl md:text-5xl lg:text-6xl font-poppins font-bold mt-4 mb-7 text-shadow-3px ">
+          Rp 999.999.999,-
+        </div>
+      </div>
     </div>
   );
-}
+};
 
-export default Hero;
+export default HeroCompe;

@@ -1,16 +1,20 @@
 import "./App.css";
 import React from "react";
-import Herocomp from "./components/Herocomp";
+import Herocomp from "./components/HeroCompe";
 import Navbar from "./components/Navbar";
 import RoutesConfig from "./config/RoutesConfig";
 import Background from "./components/Background";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div>
+    <div className="">
       <Navbar />
       {/* <Background /> */}
-      <RoutesConfig />
+      <main className="mb-20 mt-24">
+        <RoutesConfig />
+      </main>
+      <Footer />
     </div>
   );
 }

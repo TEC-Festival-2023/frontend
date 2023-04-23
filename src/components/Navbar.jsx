@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`font-poppins z-10 flex justify-between items-center h-24 mx-auto px-4 text-black sticky top-0
+      className={`font-poppins z-10 w-screen flex justify-between items-center h-[80px] mx-auto px-4 text-black sticky top-0
         ${color ? "bg-[#F8D660]" : "bg-gradient-to-b from-[#F8D660]"}
       `}
     >

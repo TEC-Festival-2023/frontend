@@ -1,30 +1,24 @@
 import React from "react";
 import Hero from "../components/Hero";
 import Carousel from "../components/Carousel";
-import Carousel2 from "../components/Carousel2";
-import Cta from "../components/Cta";
+import CtaCompe from "../components/CtaCompe";
 import Judges from "../components/Judges";
-import Accordion from "../components/Accordion";
+import FAQ from "../components/FAQ";
 import Roadmap from "../components/Roadmap";
-import Miniquiz from "../components/Miniquiz";
-import HeroTECFestTalks from "../components/HeroTECFestTalks";
-import CtaTECFestTalks from "../components/CtaTECFestTalks";
-import FooterTECFestTalks from "../components/FooterTECFestTalks";
+import CtaEvent from "../components/CtaEvent";
 
 function HomePage() {
   return (
     <div className="">
-      {/* <Hero />
+      <Hero />
       <Carousel />
       <Roadmap />
-      <Cta />
-      <Accordion />
-      <Carousel2 />
-      <Judges /> */}
-      <HeroTECFestTalks />
-      <Miniquiz />
-      <CtaTECFestTalks />
-      <FooterTECFestTalks />
+      <div className="flex w-full gap-5 min-[800px]:gap-40 justify-center">
+        <CtaEvent />
+        <CtaCompe />
+      </div>
+      {/* <FAQ />
+      {/* <Judges /> */}
     </div>
   );
 }
