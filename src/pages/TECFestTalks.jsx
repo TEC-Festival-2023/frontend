@@ -1,18 +1,16 @@
 import React from "react";
 import Miniquiz from "../components/Miniquiz";
-import HeroTECFestTalks from "../components/HeroTECFestTalks";
-import CtaTECFestTalks from "../components/CtaoTECFestTalks";
-import FooterTECFestTalks from "../components/FooterTECFestTalks";
+import HeroTECFestTalks from "../components/HeroTecFestTalks";
+import CtaEvent from "../components/CtaEvent";
 
 function TECFestTalks() {
-    return (
-        <div>
-            <HeroTECFestTalks />
-            <Miniquiz />
-            <CtaTECFestTalks />
-            <FooterTECFestTalks />
-        </div>
-    );
+  return (
+    <div>
+      <HeroTECFestTalks />
+      <Miniquiz />
+      <CtaEvent />
+    </div>
+  );
 }
 
 export default TECFestTalks;
