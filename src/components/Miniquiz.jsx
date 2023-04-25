@@ -99,7 +99,7 @@ const Miniquiz = () => {
                 <div className="mb-7 font-bold">
                   {score} out of {questions.length}
                 </div>
-                <h1 className="">Save this code!</h1>
+                <h1 className="">Screenshot this code and upload it to RSVP form to get your prize!</h1>
                 <p className="mb-7 font-bold">UFGSNN</p>
               </div>
             ) : (
