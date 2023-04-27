@@ -1,6 +1,6 @@
 import React from "react";
 import Miniquiz from "../components/Miniquiz";
-import HeroTECFestTalks from "../components/HeroTecFestTalks";
+import HeroTECFestTalks from "../components/HeroTECFestTalks";
 import CtaEvent from "../components/CtaEvent";
 
 function TECFestTalks() {
