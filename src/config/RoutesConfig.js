@@ -12,8 +12,8 @@ const RoutesConfig = () => {
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/competitions" element={<CompetitionsPage />} />
-      <Route path="/competitions/bcc" element={<BCC />} />
-      <Route path="/competitions/bpc" element={<BPC />} />
+      <Route path="/competitions/business-case" element={<BCC />} />
+      <Route path="/competitions/business-plan" element={<BPC />} />
       <Route path="/events" element={<EventsPage />} />
       <Route path="/events/tecfest-talks" element={<TECFestTalks />} />
     </Routes>
