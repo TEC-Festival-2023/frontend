@@ -11,7 +11,7 @@ function App() {
     <div className="">
       <Navbar />
       {/* <Background /> */}
-      <main className="mb-20">
+      <main className="mb-20 ">
         <RoutesConfig />
       </main>
       <Footer />

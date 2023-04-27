@@ -13,7 +13,7 @@ function HomePage() {
       <Hero />
       <Carousel />
       <Roadmap />
-      <div className="flex w-full gap-40 justify-center">
+      <div className="flex w-full gap-5 min-[800px]:gap-40 justify-center">
         <CtaEvent />
         <CtaCompe />
       </div>
