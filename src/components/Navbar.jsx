@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineDown } from "react-icons/ai";
+import { Dropdown, DropdownContainer } from "./Dropdown";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -23,29 +24,41 @@ const Navbar = () => {
         ${color ? "bg-[#F8D660]" : "bg-gradient-to-b from-[#F8D660]"}
       `}
     >
-      <img src="/assets/icon.png" className="w-[70px]" />
-      <ul className="flex-grow justify-end hidden md:flex">
-        <div className="p-4 px-10 border-gray-900">
+      <a href="/">
+        <img src="/assets/icon.png" className="w-[70px]" />
+      </a>
+      <div className="flex-grow justify-end hidden md:flex mr-8">
+        <div className="py-4 pr-20 border-gray-900">
           <a className="underline-offset-2 hover:underline" href="/">
             Home
           </a>
         </div>
-        <div className="flex p-4 px-10 items-center">
-          <a className="underline-offset-2 hover:underline" href="/events">
-            Events
-          </a>
-          <AiOutlineDown className="p-1" size={20}></AiOutlineDown>
-        </div>
-        <div className="flex p-4 px-10 items-center">
-          <a
-            className="underline-offset-2 hover:underline"
-            href="/competitions"
-          >
-            Competitions
-          </a>
-          <AiOutlineDown className="p-1" size={20}></AiOutlineDown>
-        </div>
-      </ul>
+
+        <DropdownContainer>
+          <Dropdown title={"Events"}>
+            <a href="/events/tecfest-talks" className="rounded-t-md">
+              TECFest Talks
+            </a>
+            <a href="/events/youth-entrepreneur-lab" className="">
+              Youth Entrepreneur Lab
+            </a>
+            <a href="/events/startup-expo" className="">
+              Start-Up Expo
+            </a>
+            <a href="/events/grand-summit" className="rounded-b-md">
+              Grand Summit
+            </a>
+          </Dropdown>
+          <Dropdown title={"Competitions"}>
+            <a href="/competitions/business-case" className=" rounded-t-md">
+              Business Case Competition
+            </a>
+            <a href="/competitions/business-plan" className="rounded-t-md">
+              Business Plan Competition
+            </a>
+          </Dropdown>
+        </DropdownContainer>
+      </div>
       <div onClick={handleNav} className="z-50 md:hidden block">
         {nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
       </div>
