@@ -99,8 +99,13 @@ const Miniquiz = () => {
                 <div className="mb-7 font-bold">
                   {score} out of {questions.length}
                 </div>
-                <h1 className="">Save this code!</h1>
-                <p className="mb-7 font-bold">UFGSNN</p>
+                <h1 className="">
+                  Screenshot this code and upload it to RSVP form to get your
+                  prize!
+                </h1>
+                <p className="mb-7 font-bold">
+                  {score == questions.length ? "UFGSNN" : "GBCKOS"}
+                </p>
               </div>
             ) : (
               <>
@@ -156,7 +161,7 @@ const Miniquiz = () => {
                     handleNextQuestionClick(questions[currentIndex])
                   }
                   disabled={questions[currentIndex].selectedAnswer === null}
-                  className="self-end mr-5 mb-5 bg-[#FFE99E] rounded-xl hover:bg-[#F8D660] hover:scale-110 font-bold px-3 py-1 text-xs md:text-base lg:text-xl"
+                  className="cursor-pointer self-end mr-5 mb-5 bg-[#FFE99E] rounded-xl hover:bg-[#F8D660] hover:scale-110 font-bold px-3 py-1 text-xs md:text-base lg:text-xl"
                 >
                   Next
                 </button>
