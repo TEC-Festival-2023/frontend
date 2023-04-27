@@ -28,7 +28,7 @@ function Roadmap() {
                   <div className="bg-white rounded-full w-4 h-4"></div>
                 </div>
               </button>
-              <div className="text-xs font-poppins font-bold ">Finish Line</div>
+              <div className="text-xs font-poppins font-bold ">Grand Opening</div>
             </foreignObject>
 
             <foreignObject x="0" y="80" width="100%" height="160" className="">
@@ -39,8 +39,7 @@ function Roadmap() {
                   </div>
                 </button>
                 <div className="text-xs font-poppins font-bold pl-1 ">
-                  Grand <br />
-                  <span className="-ml-1">Summit II</span>
+                  YEL 1
                 </div>
               </div>
             </foreignObject>
