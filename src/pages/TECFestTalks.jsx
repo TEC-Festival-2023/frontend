@@ -7,6 +7,7 @@ function TECFestTalks() {
   return (
     <div>
       <HeroTECFestTalks />
+
       <Miniquiz />
       <CtaEvent />
     </div>
