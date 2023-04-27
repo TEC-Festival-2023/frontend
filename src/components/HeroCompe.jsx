@@ -2,7 +2,15 @@ import React from "react";
 
 const HeroCompe = () => {
   return (
-    <div className="font-poppins h-screen flex flex-col items-center justify-center -translate-y-[80px]">
+    <div
+      style={{
+        backgroundImage: "url('/assets/images/bg-hero.png')",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+      }}
+      className="font-poppins h-screen flex flex-col items-center justify-center -translate-y-[80px]"
+    >
       {/* Atas */}
       <h1 className="text-5xl discovery">Discovery in</h1>
       <div className="flex items-center justify-center -mt-6">
