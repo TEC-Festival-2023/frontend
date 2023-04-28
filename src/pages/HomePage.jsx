@@ -15,7 +15,7 @@ function HomePage() {
       <Roadmap />
       <div className="flex w-full gap-5 min-[800px]:gap-40 justify-center">
         <CtaEvent />
-        <CtaCompe />
+        {/* <CtaCompe /> */}
       </div>
       <FAQ />
       {/* <Judges /> */}
