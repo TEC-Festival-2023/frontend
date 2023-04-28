@@ -4,14 +4,14 @@ function CTAEvent() {
   return (
     <div
       data-aos="flip-up"
-      className="mt-20 mb-20 font-poppins font-bold flex flex-col sm:flex-row sm:justify-center w-1/2"
+      className="lg:my-20 font-poppins font-bold flex justify-center"
     >
       <a
         href="https://bit.ly/TECForwardRegist"
         target="_blank"
-        className="flex flex-col min-h-[300px] hover:scale-110 transition-all duration-300"
+        className="flex justify-center hover:scale-110 transition-all duration-300"
       >
-        <div className="flex flex-col items-center justify-center h-[300px] bg-blobyellow bg-center bg-[length:60%_100%] bg-no-repeat">
+        <div className="flex flex-col items-center justify-center bg-blobyellow bg-center bg-contain aspect-[3/4] w-2/3 md:w-1/2 lg:w-2/3 bg-no-repeat">
           {/* <div className="min-h-[500px] hover:scale-110 transition-all duration-300"> */}
           <img
             src={"/assets/register.png"}
@@ -32,14 +32,14 @@ function CTACompe() {
   return (
     <div
       data-aos="flip-down"
-      className="mt-20 mb-20 font-poppins font-bold flex flex-col sm:flex-row sm:justify-center w-1/2"
+      className="lg:my-20 font-poppins font-bold flex justify-center"
     >
       <a
         href="https://bit.ly/TECForwardRegist"
         target="_blank"
-        className="flex flex-col min-h-[300px] hover:scale-110 transition-all duration-300"
+        className="flex justify-center hover:scale-110 transition-all duration-300"
       >
-        <div className="flex flex-col items-center justify-center h-[300px] bg-blobred bg-center bg-[length:60%_100%] bg-no-repeat">
+        <div className="flex flex-col items-center justify-center bg-blobred bg-center bg-contain aspect-[3/4] w-2/3 md:w-1/2 lg:w-2/3 bg-no-repeat">
           <img
             src={"/assets/register.png"}
             alt="maskGroup"
@@ -60,8 +60,8 @@ function CTACompe() {
 function CTA({ compe, event }) {
   return (
     <div className="w-screen flex flex-col items-center justify-center mt-28">
-      <div className="max-w-[1140px] flex items-center">
-        <div className=" text-[#FFE99E] pl-8 text-3xl md:text-5xl font-poppins font-bold mt-4 mb-7 text-shadow-3px">
+      <div className="max-w-[1140px] flex flex-col lg:flex-row items-center">
+        <div className=" text-[#FFE99E] text-2xl md:text-5xl font-poppins font-bold mt-4 mb-7 text-shadow-3px">
           What are you waiting for?
         </div>
         <div className="flex w-full justify-center">
