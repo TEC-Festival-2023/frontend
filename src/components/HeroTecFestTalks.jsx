@@ -23,7 +23,7 @@ function HeroTecFestTalks() {
         <h2 className="text-xl md:text-3xl lg:text-4xl font-bold">
           Rizky Arief Dwi Prakoso
         </h2>
-        <ol className="text-xs md:text-base lg:text-xl mt-2 text-center">
+        <ol className="text-xs md:text-base lg:text-xl mt-2 list-disc">
           <li>CEO & Founder HMNS Perfumery</li>
           <li>CEO & Co-founder NAH Project</li>
           <li>Founding Partner in EfektifKreatif</li>
