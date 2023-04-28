@@ -15,7 +15,7 @@ const Blob = ({ image, children }) => {
 
 const Benefits = () => {
   return (
-    <div className="mt-20">
+    <div className="mt-32">
       <div className="text-[#7EA8FF] flex justify-center text-4xl md:text-5xl lg:text-7xl font-poppins font-bold mt-4 text-shadow-3px md:text-shadow-4px ">
         BENEFITS
       </div>

@@ -236,7 +236,7 @@ function Roadmap() {
             <foreignObject x="30" y="-3" width="160" height="160" className="">
               <div className="flex flex-col">
                 <img
-                  src={"/assets/images/logo.png"}
+                  src={"/assets/images/Logo.png"}
                   alt="logoTECFEST"
                   className="w-7 pl-3"
                 />

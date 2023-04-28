@@ -35,7 +35,7 @@ const Navbar = () => {
         </div>
 
         <DropdownContainer>
-          <Dropdown title={"Events"}>
+          <Dropdown title={"Events"} href="/events">
             <a href="/events/tecfest-talks" className="rounded-t-md">
               TECFest Talks
             </a>
@@ -49,7 +49,7 @@ const Navbar = () => {
               Grand Summit
             </a>
           </Dropdown>
-          <Dropdown title={"Competitions"}>
+          <Dropdown title={"Competitions"} href={"/competitions"}>
             <a href="/competitions/business-case" className=" rounded-t-md">
               Business Case Competition
             </a>
@@ -59,7 +59,7 @@ const Navbar = () => {
           </Dropdown>
         </DropdownContainer>
       </div>
-      <div onClick={handleNav} className="z-50 md:hidden block">
+      <div onClick={handleNav} className="z-50 md:hidden block cursor-pointer">
         {nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
       </div>
       <div
@@ -71,17 +71,26 @@ const Navbar = () => {
           }
         `}
       >
-        <ul className="uppercase p-4 mt-20">
-          <li className="p-8 hover:font-bold duration-100 border-b border-gray-600 text-center">
+        <div className="flex flex-col uppercase p-4 mt-20 cursor-pointer">
+          <a
+            href="/"
+            className="p-8 hover:font-bold duration-100 border-b border-gray-600 text-center"
+          >
             Home
-          </li>
-          <li className="p-8 hover:font-bold duration-100 border-b border-gray-600 text-center">
-            Event
-          </li>
-          <li className="p-8 hover:font-bold duration-100 text-center">
-            Competition
-          </li>
-        </ul>
+          </a>
+          <a
+            href="/events"
+            className="p-8 hover:font-bold duration-100 border-b border-gray-600 text-center"
+          >
+            Events
+          </a>
+          <a
+            href="/competitions"
+            className="p-8 hover:font-bold duration-100 text-center"
+          >
+            Competitions
+          </a>
+        </div>
       </div>
     </div>
   );
