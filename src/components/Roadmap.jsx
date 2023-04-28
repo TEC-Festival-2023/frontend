@@ -1,12 +1,12 @@
 function Roadmap() {
   return (
-    <div className="mt-20">
+    <div data-aos="fade-up" className="mt-20">
       <div className="flex flex-col items-center">
         <div className=" text-[#FFE99E] pl-8 text-3xl md:text-5xl font-poppins font-bold mt-4 mb-7 text-shadow-3px">
           ROADMAP
         </div>
         {/* <700px */}
-        <div className="w-[80%] h-[100%] min-[700px]:hidden max-w-[1140px]">
+        <div className="w-[80%] h-[100%] min-[700px]:hidden max-w-[1250px]">
           <svg
             className=""
             viewBox="0 -30 307 680"
@@ -218,7 +218,7 @@ function Roadmap() {
         </div>
 
         {/* >700px */}
-        <div className="w-[80%] h-[100%] hidden min-[700px]:block max-w-[1140px]">
+        <div className="w-[80%] h-[100%] hidden min-[700px]:block max-w-[1250px]">
           <svg
             viewBox="-5 -5 220 200"
             shape-rendering="geometricPrecision"

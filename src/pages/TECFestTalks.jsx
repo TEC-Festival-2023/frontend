@@ -1,7 +1,7 @@
 import React from "react";
 import Miniquiz from "../components/Miniquiz";
 import HeroTECFestTalks from "../components/HeroTecFestTalks";
-import CtaEvent from "../components/CtaEvent";
+import CTA from "../components/CTA";
 
 function TECFestTalks() {
   return (
@@ -9,7 +9,7 @@ function TECFestTalks() {
       <HeroTECFestTalks />
 
       <Miniquiz />
-      <CtaEvent />
+      <CTA compe={false} event={true} />
     </div>
   );
 }

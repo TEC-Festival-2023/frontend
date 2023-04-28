@@ -1,16 +1,9 @@
 import React from "react";
+import Hero from "./Hero";
 
 const HeroCompe = () => {
   return (
-    <div
-      style={{
-        backgroundImage: "url('/assets/images/bg-hero.png')",
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "center",
-      }}
-      className="font-poppins h-screen flex flex-col items-center justify-center -translate-y-[80px]"
-    >
+    <Hero>
       {/* Atas */}
       <h1 className="text-5xl discovery">Discovery in</h1>
       <div className="flex items-center justify-center -mt-6">
@@ -48,7 +41,7 @@ const HeroCompe = () => {
           Rp24.000.000,-
         </div>
       </div>
-    </div>
+    </Hero>
   );
 };
 
