@@ -165,7 +165,7 @@ function Footer() {
                 <div className="grid grid-cols-2 gap-8">
                   {/* Ojan */}
                   <div className="">
-                    <p className="md:text-lg font-bold">Events</p>
+                    <p className="md:text-lg font-bold text-sm">Events</p>
                     <p className="text-sm md:text-base text-primary font-semibold">
                       Fauzan Arkadani
                     </p>
