@@ -39,6 +39,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
@@ -50,8 +51,9 @@ code {
     monospace;
 }
 
-.discovery {
-  font-family: 'Over the Rainbow', cursive;
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  color: white; 
 }
 
 .text {

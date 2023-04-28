@@ -1,15 +1,9 @@
+import Hero from "./Hero";
+
 function HeroTecFestTalks() {
   return (
-    <div
-      style={{
-        backgroundImage: "url('/assets/images/bg-hero.png')",
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "center",
-      }}
-      className="font-poppins h-screen flex flex-col items-center justify-center -translate-y-[80px]"
-    >
-      <div className="font-poppins h-screen flex flex-col items-center justify-center min-[1028px]:mt-11 -translate-y-[80px]">
+    <Hero>
+      <div className="font-poppins h-screen flex flex-col items-center justify-center">
         <div className="text-[#FFE99E] flex justify-center text-4xl md:text-5xl lg:text-7xl font-poppins font-bold mt-4 text-shadow-3px md:text-shadow-5px">
           TECFest Talks
         </div>
@@ -29,7 +23,7 @@ function HeroTecFestTalks() {
           <li>Founding Partner in EfektifKreatif</li>
         </ol>
       </div>
-    </div>
+    </Hero>
   );
 }
 

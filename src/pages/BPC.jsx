@@ -2,8 +2,9 @@ import React from "react";
 import Hero from "../components/Hero";
 
 function BPC() {
-  return <div>
-          <Hero>
+  return (
+    <div>
+      <Hero>
         <div className="font-poppins h-screen flex flex-col items-center justify-center -translate-y-[80px]">
           <div className="text-[#FFE99E] flex justify-center text-4xl md:text-5xl lg:text-7xl font-poppins font-bold mt-4 text-shadow-3px md:text-shadow-5px">
             BUSINESS PLAN COMPETITION
@@ -13,7 +14,7 @@ function BPC() {
           </h3>
           <h2 className=" p-6 text-3xl">In Collaboration With:</h2>
           <div className="w-20 h-20 border-8 border-black mx-auto"></div>
-          <p className="p-10 text-lg text-center max-w-[1140px]">
+          <p className="p-10 text-lg text-center max-w-[1250px]">
             {" "}
             Business Case Competition (BCC) adalah kompetisi yang membutuhkan
             daya analisis guna memecahkan masalah aktual yang terjadi dalam
@@ -31,7 +32,8 @@ function BPC() {
           </p>
         </div>
       </Hero>
-  </div>;
+    </div>
+  );
 }
 
 export default BPC;
