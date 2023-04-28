@@ -9,9 +9,14 @@ function Hero(props) {
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
       }}
-      className="font-poppins h-screen flex flex-col items-center justify-center -translate-y-[80px]"
+      className="font-poppins h-screen -translate-y-[80px]"
     >
-      {props.children}
+      <div
+        data-aos="zoom-in-up"
+        className="flex flex-col items-center justify-center -translate-y-[80px] h-full"
+      >
+        {props.children}
+      </div>
     </div>
   );
 }

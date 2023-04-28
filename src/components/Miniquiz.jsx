@@ -106,12 +106,12 @@ const Miniquiz = () => {
   };
 
   return (
-    <div className="">
+    <div data-aos="zoom-in" className="">
       <div className="text-[#FFE99E] flex justify-center text-3xl md:text-4xl lg:text-7xl font-poppins font-bold mt-4 mb-7 text-shadow-3px">
         Mini Quiz
       </div>
       <div className="flex justify-center">
-        <div className="bg-[#E26767] rounded-3xl max-w-[1140px] w-4/5">
+        <div className="bg-[#E26767] rounded-3xl max-w-[1250px] w-4/5">
           <div className="flex flex-col items-center justify-center font-poppins">
             <img
               src={"/assets/images/Logo.png"}

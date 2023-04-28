@@ -16,7 +16,7 @@ function BCC() {
           </h3>
           <h2 className=" p-6 text-3xl">In Collaboration With:</h2>
           <div className="w-20 h-20 border-8 border-black mx-auto"></div>
-          <p className="p-10 text-lg text-center max-w-[1140px]">
+          <p className="p-10 text-lg text-center max-w-[1250px]">
             {" "}
             Business Case Competition (BCC) adalah kompetisi yang membutuhkan
             daya analisis guna memecahkan masalah aktual yang terjadi dalam
