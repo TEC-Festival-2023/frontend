@@ -11,7 +11,7 @@ function Footer() {
         <div className="md:hidden">
           <img src="/assets/Vector12.png" className="w-[100%]" />
         </div>
-        <div className=" w-screen md:pt-44 xl:pr-44 xl:pl-44 -mt-44 md:mt-0 mb-10 px-12 md:max-w-5xl lg:max-w-full">
+        <div className="w-screen md:pt-44 xl:pr-44 xl:pl-44 -mt-44 md:mt-0 mb-10 px-12 md:max-w-5xl lg:max-w-full">
           <div className="flex mt-8 justify-between bg-[#FFE99E]">
             {/* logo and name */}
             <div>
