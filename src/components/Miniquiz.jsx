@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Cookies from "js-cookie";
 
 const Miniquiz = () => {
   const [questions, setQuestions] = useState([
@@ -50,9 +51,12 @@ const Miniquiz = () => {
     },
   ]);
 
+  const [code, setCode] = useState(Cookies.get("quizCompleted"));
   const [currentIndex, setCurrentIndex] = useState(0);
   const [score, setScore] = useState(0);
-  const [showScore, setShowScore] = useState(false);
+  const [showScore, setShowScore] = useState(code ? true : false);
+  const expirationDate = new Date();
+  expirationDate.setFullYear(expirationDate.getFullYear() + 1); // Set expiration date to one year from now
 
   const handleAnswerClick = (answer) => {
     const updatedQuestions = [...questions];
@@ -75,6 +79,27 @@ const Miniquiz = () => {
 
     if (currentIndex === questions.length - 1) {
       setShowScore(true);
+      if (isCorrect) {
+        setCode(score + 1 === questions.length ? "UFGSNN" : "GBCKOS");
+        Cookies.set(
+          "quizCompleted",
+          score + 1 === questions.length ? "UFGSNN" : "GBCKOS",
+          {
+            path: "/",
+            expires: expirationDate,
+          }
+        );
+      } else {
+        setCode(score === questions.length ? "UFGSNN" : "GBCKOS");
+        Cookies.set(
+          "quizCompleted",
+          score === questions.length ? "UFGSNN" : "GBCKOS",
+          {
+            path: "/",
+            expires: expirationDate,
+          }
+        );
+      }
     } else {
       setCurrentIndex(currentIndex + 1);
     }
@@ -95,17 +120,20 @@ const Miniquiz = () => {
             />
             {showScore ? (
               <div className="text-center text-white md:text-xl">
-                <div>Your Score:</div>
-                <div className="mb-7 font-bold">
-                  {score} out of {questions.length}
-                </div>
+                {currentIndex !== 0 && (
+                  <>
+                    <div>Your Score:</div>
+
+                    <div className="mb-7 font-bold">
+                      {score} out of {questions.length}
+                    </div>
+                  </>
+                )}
                 <h1 className="">
                   Screenshot this code and upload it to RSVP form to get your
                   prize!
                 </h1>
-                <p className="mb-7 font-bold">
-                  {score == questions.length ? "UFGSNN" : "GBCKOS"}
-                </p>
+                <p className="mb-7 font-bold">{code}</p>
               </div>
             ) : (
               <>
