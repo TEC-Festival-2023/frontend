@@ -3,7 +3,7 @@ import { useState } from "react";
 const Miniquiz = () => {
   const [questions, setQuestions] = useState([
     {
-      question: "Tau ga si bisnis itu apa?",
+      question: "Tau ga sih bisnis itu apa?",
       options: [
         "Usaha komersial dalam dunia perdagangan",
         "Usaha",
@@ -27,14 +27,14 @@ const Miniquiz = () => {
       isCorrect: null,
     },
     {
-      question: "Perlu ga si inovasi dalam bisnis?",
+      question: "Perlu ga sih inovasi dalam bisnis?",
       options: ["Perlu", "Perlu banget", "Perlu aja", "Gak perlu"],
       answer: "Perlu banget",
       selectedAnswer: null,
       isCorrect: null,
     },
     {
-      question: "Inovasi itu bisa berbentuk apa aja?",
+      question: "Inovasi itu bisa berbentuk apa saja?",
       options: ["Proses", "Layanan", "Produk", "Semua benar"],
       answer: "Semua benar",
       selectedAnswer: null,
@@ -42,7 +42,7 @@ const Miniquiz = () => {
     },
     {
       question:
-        "Tau ga brand parfum lokal yang pernah viral karena launching di luar negri? kalo tau coba tebak nama brandnya apa?",
+        "Tau ga brand parfum lokal yang pernah viral karena launching di luar negeri? Kalau tau, coba tebak nama brandnya!",
       options: ["HMNS", "Kahf", "Onix", "Oullu"],
       answer: "HMNS",
       selectedAnswer: null,
@@ -82,7 +82,7 @@ const Miniquiz = () => {
 
   return (
     <div className="">
-      <div className="text-[#FFE99E] flex justify-center text-3xl md:text-4xl lg:text-5xl font-poppins font-bold mt-4 mb-7 text-shadow-3px">
+      <div className="text-[#FFE99E] flex justify-center text-3xl md:text-4xl lg:text-7xl font-poppins font-bold mt-4 mb-7 text-shadow-3px">
         Mini Quiz
       </div>
       <div className="flex justify-center">

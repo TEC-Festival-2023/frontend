@@ -3,7 +3,7 @@ import Event from "./EventSwiper";
 function Carousel() {
   return (
     <div className="overflow-hidden ">
-      <div className="flex justify-center items-center bg-wavePhone bg-[length:100%_100%] sm:bg-vector11 sm:overflow-hidden h-[550px]">
+      <div className="flex justify-center items-center bg-wavePhone bg-[length:100%_100%] sm:bg-vector11 sm:overflow-hidden h-[650px]">
         <div className="flex flex-row sm:flex-row sm:justify-items-center mx-[5%] gap-10 font-poppins max-w-[1140px]">
           {/* Kiri */}
           <div className="block sm:mt-20 sm:mb-0 mb-20 overflow-y-scroll h-56 sm:h-[100%] sm:overflow-hidden basis-[100%] shrink-[1] grow-[1]">
@@ -33,14 +33,16 @@ function Carousel() {
           </div>
           {/* Kanan */}
           <div className="flex flex-col xs:w-3/4 sm:w-4/5 basis-[100%] shrink-[1] grow-[1]">
-            <div className="font-poppins font-bold text-center text-xl md:text-2xl lg:text-3xl shrink-[1]">
+            <div className="mb-4 font-poppins font-bold text-center text-xl md:text-2xl lg:text-3xl shrink-[1]">
               Current Event
             </div>
-            <img
-              src="https://source.unsplash.com/1000x600"
-              alt="pict"
-              className="rounded-2xl self-center w-[100%] max-w-[20rem]"
-            />
+            <a href="/events/tecfest-talks" className="flex justify-center self-center hover:scale-110 transition ease-in-out duration-500">
+              <img
+                src={"/assets/posterTFT1.jpg"}
+                alt="current event"
+                className="rounded-2xl w-[80%] md:w-[90%] max-w-[20rem]"
+              />             
+            </a>
           </div>
         </div>
       </div>
