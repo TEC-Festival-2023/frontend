@@ -20,7 +20,7 @@ const Benefits = () => {
         BENEFITS
       </div>
       <div className="flex justify-center">
-        <div className="mt-20 font-poppins font-bold flex flex-col md:flex-row max-w-[1140px] gap-12">
+        <div className="mt-20 font-poppins font-bold flex flex-col md:flex-row max-w-[1250px] gap-12">
           <Blob image={"/assets/images/People.png"}>Coaching 3x</Blob>
           <Blob image={"/assets/images/People.png"}>Company Visit</Blob>
           <Blob image={"/assets/images/People.png"}>Gala Dinner</Blob>

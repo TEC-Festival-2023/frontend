@@ -1,17 +1,10 @@
 import React from "react";
+import Hero from "./Hero";
 
 const HeroEvent = () => {
   return (
-    <div
-      style={{
-        backgroundImage: "url('/assets/images/bg-hero.png')",
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "center",
-      }}
-      className="font-poppins h-screen flex flex-col items-center justify-center -translate-y-[80px]"
-    >
-      <h1 className="text-5xl discovery">Discovery in</h1>
+    <Hero>
+      <h1 className="text-5xl font-discovery">Discovery in</h1>
       <div className="flex items-center justify-center -mt-6">
         <h1 className="text-5xl font-bold z-[1] lg:text-7xl">TECFEST</h1>
         <div className="relative pt-14 -ml-10 w-max text-center">
@@ -38,7 +31,7 @@ const HeroEvent = () => {
           EVENTS Ed.
         </h1>
       </div>
-    </div>
+    </Hero>
   );
 };
 
