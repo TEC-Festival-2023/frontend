@@ -40,7 +40,12 @@ function CompetitionsPage() {
         </div>
       </div> */}
       <Benefits />
-      <CTA compe={true} event={false} />
+      {/* <CTA compe={true} event={false} /> */}
+      <div className="my-48">
+        <div className="text-[#E26767] flex justify-center text-4xl md:text-5xl lg:text-7xl font-poppins font-bold mt-4 text-shadow-3px md:text-shadow-4px ">
+          COMING SOON!
+        </div>
+      </div>
     </div>
   );
 }
