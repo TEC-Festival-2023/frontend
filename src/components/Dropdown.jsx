@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 
-function Dropdown({ children, title, isOpen, onOpen }) {
+function Dropdown({ children, title, isOpen, onOpen, href }) {
   const handleClick = () => {
     onOpen(title);
   };
   return (
     <div className="">
       <div className="flex py-4 mr-20">
-        <a className="underline-offset-2 hover:underline" href="/events">
+        <a className="underline-offset-2 hover:underline" href={href}>
           {title}
         </a>
         <div className="flex flex-col">
