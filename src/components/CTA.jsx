@@ -59,7 +59,7 @@ function CTACompe() {
 
 function CTA({ compe, event }) {
   return (
-    <div className="w-screen flex flex-col items-center justify-center mt-28">
+    <div className="w-full flex flex-col items-center justify-center mt-28">
       <div className="max-w-[1140px] flex flex-col lg:flex-row items-center">
         <div className=" text-[#FFE99E] text-2xl md:text-5xl font-poppins font-bold mt-4 mb-7 text-shadow-3px">
           What are you waiting for?
