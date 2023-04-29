@@ -12,13 +12,11 @@ function App() {
     AOS.init({ delay: 100, duration: 1000 });
   }, []);
   return (
-    <div className="">
+    <main className="w-screen">
       <Navbar />
-      <main className="mb-20 ">
-        <RoutesConfig />
-      </main>
+      <RoutesConfig />
       <Footer />
-    </div>
+    </main>
   );
 }
 

@@ -39,7 +39,7 @@ const eventCollection = [
     date: "",
     price: "",
     location: "",
-    desc: "Grand Summit merupakan kegiatan yang menjadi acara puncak TECFest 2023 yang terdiri dari Conference, Pitching Day, dan Gala Dinner.",
+    desc: "Grand Summit merupakan kegiatan yang menjadi acara puncak dari rangkaian kegiatan TECFest 2023 yang terdiri dari Pitching Day dan Gala Dinner.",
     link: "/events/grand-summit",
   },
 ];
