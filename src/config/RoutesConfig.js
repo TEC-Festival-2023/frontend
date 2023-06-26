@@ -4,6 +4,7 @@ import HomePage from "../pages/HomePage";
 import CompetitionsPage from "../pages/CompetitionsPage";
 import EventsPage from "../pages/EventsPage";
 import TECFestTalks from "../pages/TECFestTalks";
+import YEL from "../pages/YEL";
 import BCC from "../pages/BCC";
 import BPC from "../pages/BPC";
 import ComingSoon from "../pages/ComingSoon";
@@ -17,6 +18,7 @@ const RoutesConfig = () => {
       <Route path="/competitions/business-plan" element={<BPC />} /> */}
       <Route path="/events" element={<EventsPage />} />
       <Route path="/events/tecfest-talks" element={<TECFestTalks />} />
+      <Route path="/events/youth-entrepreneur-lab" element={<YEL />} />
       <Route path="*" element={<ComingSoon />} />
     </Routes>
   );
